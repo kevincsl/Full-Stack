@@ -21,12 +21,18 @@ A. Web APP
 ✅DataTables程式庫套件。
 
 3. 用 AI (claude,chatgpt或copilot) 學習Node.js , React.js , Next.js 與 Restful api (執行日期 2024/11/07-2024/12/22)
+   3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+   3-2 React.js : [React Learning](https://react.dev/learn)
+   3-3 Next.js : [Next Learning](https://nextjs.org/learn)
+   3-4 Restful API :
+       [Define](https://aws.amazon.com/tw/what-is/restful-api/)
+       [Usage](https://learn.microsoft.com/zh-tw/azure/architecture/best-practices/api-design#define-api-operations-in-terms-of-http-methods)
 
-4. 用 AI (claude,chatgpt或copilot) 練習資料庫程式 sql 與 nosql (執行日期 2024/11/23-2024/12/06)
+5. 用 AI (claude,chatgpt或copilot) 練習資料庫程式 sql 與 nosql (執行日期 2024/11/23-2024/12/06)
 
-5. n8n workflow 學習與使用 (執行日期 2024/12/07-2024/12/22)
+6. n8n workflow 學習與使用 (執行日期 2024/12/07-2024/12/22)
 
-6. 用 AI (claude,chatgpt或copilot) 製作全端程式 程式1 ～ 程式5 (執行日期 2025/01/01-2025/06/30)
+7. 用 AI (claude,chatgpt或copilot) 製作全端程式 程式1 ～ 程式5 (執行日期 2025/01/01-2025/06/30)
    
 B. Mobile APP
 1. 學習 React Native (執行日期 2025/01/01-2025/01/15)
