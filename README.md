@@ -6,6 +6,7 @@
 ## A. Web APP
 
 1. 學習 [figma](https://www/figma.com) 並使用它設計 UI/UX  
+   [教學影片 on youtube https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6](https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6)
 
 2. 用 AI (claude,chatgpt或copilot) 學習Javascript  
 五項重要技術：
