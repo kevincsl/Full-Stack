@@ -5,9 +5,9 @@
 
 ## A. Web APP
 
-1. 學習 figma 並使用它設計 UI/UX (執行日期 2024/10/07-2024/10/23)
+1. 學習 [figma](https://www/figma.com) 並使用它設計 UI/UX  
 
-2. 用 AI (claude,chatgpt或copilot) 學習Javascript (執行日期 2024/10/23-2024/11/06)
+2. 用 AI (claude,chatgpt或copilot) 學習Javascript  
 五項重要技術：
 + ✅日期資料運算
 + ✅陣列反覆函式
@@ -20,7 +20,7 @@
 + ✅jQuery程式庫套件
 + ✅DataTables程式庫套件
 
-3. 用 AI (claude,chatgpt或copilot) 學習Node.js , React.js , Next.js 與 Restful api (執行日期 2024/11/07-2024/12/22)
+3. 用 AI (claude,chatgpt或copilot) 學習Node.js , React.js , Next.js 與 Restful api 
 
 + 3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 + 3-2 React.js : [React Learning](https://react.dev/learn)
@@ -29,15 +29,15 @@
 + [Define 定義](https://aws.amazon.com/tw/what-is/restful-api/)
 + [Usage 使用方法](https://learn.microsoft.com/zh-tw/azure/architecture/best-practices/api-design#define-api-operations-in-terms-of-http-methods)
 
-4. 用 AI (claude,chatgpt或copilot) 練習資料庫程式 sql 與 nosql (執行日期 2024/11/23-2024/12/06)
+4. 用 AI (claude,chatgpt或copilot) 練習資料庫程式 sql 與 nosql  
 
 5. n8n workflow 學習與使用 (執行日期 2024/12/07-2024/12/22)
 
-6. 用 AI (claude,chatgpt或copilot) 製作全端程式 程式1 ～ 程式5 (執行日期 2025/01/01-2025/06/30)
+6. 用 AI (claude,chatgpt或copilot) 製作全端程式 程式1 ～ 程式5  
    
 ## B. Mobile APP
-1. 學習 React Native (執行日期 2025/01/01-2025/01/15)
-2. 學習 ios - SwiftUI (執行日期 2025/01/16-2025/01/31)
-3. 學習 android - Jetpack Compose UI (執行日期 2025/02/1-2025/02/15) ~~~ 過年了!
-4. 用 AI (claude,chatgpt或copilot) 製作APP程式 程式1 ～ 程式5 (執行日期 2025/01/01-2025/06/30)
+1. 學習 React Native  
+2. 學習 ios - SwiftUI  
+3. 學習 android - Jetpack Compose UI  
+4. 用 AI (claude,chatgpt或copilot) 製作APP程式 程式1 ～ 程式5 ( 
 
