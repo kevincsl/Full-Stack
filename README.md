@@ -9,14 +9,16 @@
    [教學影片 on youtube https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6](https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6)
 
 2. 用 AI (claude,chatgpt或copilot) 學習Javascript  
-五項重要技術：
++ 2-1 [入門教學](https://youtu.be/0FLkwZ-PH2I?si=ZrUhfvpNxE-oj8Wp)
+   
++ 2-2 五項重要技術：
 + ✅日期資料運算
 + ✅陣列反覆函式
 + ✅async/await非同步技術
 + ✅JSON文件處理技術
 + ✅XMLHttpRequest物件查詢<
 
-三項重要套件：
++ 2-3 三項重要套件：
 + ✅Bootstrap樣式表套件
 + ✅jQuery程式庫套件
 + ✅DataTables程式庫套件
