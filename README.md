@@ -21,7 +21,7 @@ A. Web APP
 ✅DataTables程式庫套件。
 
 3. 用 AI (claude,chatgpt或copilot) 學習Node.js , React.js , Next.js 與 Restful api (執行日期 2024/11/07-2024/12/22)
-   3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+<pre>3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)</pre>
    3-2 React.js : [React Learning](https://react.dev/learn)
    3-3 Next.js : [Next Learning](https://nextjs.org/learn)
    3-4 Restful API :
