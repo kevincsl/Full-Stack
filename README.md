@@ -9,21 +9,18 @@ A. Web APP
 
 2. 用 AI (claude,chatgpt或copilot) 學習Javascript (執行日期 2024/10/23-2024/11/06)
 五項重要技術：
-
 ✅日期資料運算
 ✅陣列反覆函式
 ✅async/await非同步技術
 ✅JSON文件處理技術
 ✅XMLHttpRequest物件查詢
 
-
 三項重要套件：
-
 ✅Bootstrap樣式表套件
 ✅jQuery程式庫套件
 ✅DataTables程式庫套件。
 
-3. 用 AI (claude,chatgpt或copilot) 學習Node.js與React.js Restful api (執行日期 2024/11/07-2024/11/22)
+3. 用 AI (claude,chatgpt或copilot) 學習Node.js , React.js , Next.js 與 Restful api (執行日期 2024/11/07-2024/12/22)
 
 4. 用 AI (claude,chatgpt或copilot) 練習資料庫程式 sql 與 nosql (執行日期 2024/11/23-2024/12/06)
 
