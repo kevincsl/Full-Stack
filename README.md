@@ -15,7 +15,7 @@
 + 2-1 [入門教學youtube](https://youtu.be/0FLkwZ-PH2I?si=ZrUhfvpNxE-oj8Wp) 
    
 + 2-2 五項重要技術：
-+ ✅日期資料運算
++ ✅日期資料運算 : javascript 的 日期資料運算的範例與說明
 + ✅陣列反覆函式
 + ✅async/await非同步技術
 + ✅JSON文件處理技術
