@@ -11,7 +11,7 @@
    [教學影片 on youtube https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6](https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6)
 
 2. 用 AI (claude,chatgpt或copilot) 學習Javascript  
-+ 2-1 [入門教學](https://youtu.be/0FLkwZ-PH2I?si=ZrUhfvpNxE-oj8Wp)
++ 2-1 [入門教學youtube](https://youtu.be/0FLkwZ-PH2I?si=ZrUhfvpNxE-oj8Wp) 
    
 + 2-2 五項重要技術：
 + ✅日期資料運算
