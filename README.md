@@ -13,8 +13,7 @@
 
 2. 用 AI (claude,chatgpt或copilot) 學習Javascript
 
-   先至 nodejs.org 下載 node.js 並安裝，在終端機執行 node xxxx.js 即可執行 javascript
-   例如在 windows中開啟powershell: Install-Package nodejs . 在 mac中執行 brew install nodejs
+>   先至 nodejs.org 下載 node.js 並安裝，在終端機執行 node xxxx.js 
    
 + 2-1 [入門教學youtube](https://youtu.be/0FLkwZ-PH2I?si=ZrUhfvpNxE-oj8Wp) 
    
