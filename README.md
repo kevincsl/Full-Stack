@@ -1,7 +1,7 @@
 
 # 全端(Full-Stack)工程師養成計劃
 建議使用 Github Copilot 
-[用老師學生身份免費使用 GitHub Copilot](https://github.com/education/students)
+[用老師學生身份免費使用 GitHub Copilot](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E7%94%A8%E8%80%81%E5%B8%AB-%E5%AD%B8%E7%94%9F%E8%BA%AB%E4%BB%BD%E5%85%8D%E8%B2%BB%E4%BD%BF%E7%94%A8-github-copilot-223236e0e0e8)
  可以免費使用需上傳學生證或在學證明書
 
 ## 一次學會 前端 front-end 與 後端 back-end
