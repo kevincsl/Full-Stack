@@ -1,13 +1,14 @@
 
 # 全端(Full-Stack)工程師養成計劃
 建議使用 Github Copilot 
-[用老師學生身份免費使用 GitHub Copilot](https://github.com/education/students) 可以免費使用需上傳學生證或在學證明書
+[用老師學生身份免費使用 GitHub Copilot](https://github.com/education/students)
+ 可以免費使用需上傳學生證或在學證明書
 
 ## 一次學會 前端 front-end 與 後端 back-end
 
 ## A. Web APP
 
-1. 學習 [figma](https://www/figma.com) (Figma也有教育版可以免費使用)並使用它設計 UI
+1. 學習 [figma](https://www.figma.com) (Figma也有教育版可以免費使用)並使用它設計 UI
    [教學影片 on youtube https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6](https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6)
 
 2. 用 AI (claude,chatgpt或copilot) 學習Javascript  
