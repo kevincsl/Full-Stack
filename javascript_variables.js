@@ -87,7 +87,7 @@ console.log(sym === sym2); // 輸出: false
 // 鍵（key）是一個字串，值（value）可以是任何資料型別。
 
 // 宣告一個物件
-let person1 = {
+let person = {
     firstName: "John",
     lastName: "Doe",
     age: 30,
@@ -106,6 +106,139 @@ var person2 = {
 console.log(person.firstName); // 輸出: John
 console.log(person["lastName"]); // 輸出: Doe
 
+
+//陣列
+// 在 JavaScript 中，陣列是一種有序的集合，用來存儲多個值。
+// 陣列是一種特殊的物件，用來存儲多個值。
+// 陣列的元素可以是任何資料型別，包括數值、字串、物件、陣列等。
+
+// 宣告一個陣列
+let fruits = ["Apple", "Banana", "Orange"];
+console.log(fruits[0]); // 輸出: Apple
+console.log(fruits[1]); // 輸出: Banana
+console.log(fruits[2]); // 輸出: Orange
+// 陣列的索引從 0 開始，所以 fruits[0] 是第一個元素，fruits[1] 是第二個元素，以此類推。
+// 陣列的長度可以通過 length 屬性獲取。
+console.log(fruits.length); // 輸出: 3
+// 陣列的元素可以通過索引訪問，也可以通過索引修改。
+fruits[0] = "Mango";
+console.log(fruits[0]); // 輸出: Mango
+// 陣列的元素可以通過索引添加。
+fruits[3] = "Grapes";
+console.log(fruits[3]); // 輸出: Grapes
+console.log(fruits.length); // 輸出: 4
+// 陣列的元素可以通過索引刪除。
+delete fruits[0];
+console.log(fruits[0]); // 輸出: undefined
+console.log(fruits.length); // 輸出: 4
+// 陣列的元素可以通過 push() 方法添加到陣列的末尾。
+fruits.push("Pineapple");
+console.log(fruits[4]); // 輸出: Pineapple
+console.log(fruits.length); // 輸出: 5
+// 陣列的元素可以通過 pop() 方法從陣列的末尾刪除。
+fruits.pop();
+console.log(fruits[4]); // 輸出: undefined
+console.log(fruits.length); // 輸出: 4
+// 陣列的元素可以通過 shift() 方法從陣列的開頭刪除。
+fruits.shift();
+console.log(fruits[0]); // 輸出: Banana
+console.log(fruits.length); // 輸出: 3
+// 陣列的元素可以通過 unshift() 方法添加到陣列的開頭。
+fruits.unshift("Apple");
+console.log(fruits[0]); // 輸出: Apple
+console.log(fruits.length); // 輸出: 4
+// 陣列的元素可以通過 splice() 方法刪除或插入。
+fruits.splice(1, 1); // 刪除第二個元素
+console.log(fruits[1]); // 輸出: Orange
+console.log(fruits.length); // 輸出: 3
+fruits.splice(1, 0, "Banana"); // 在第二個位置插入 Banana
+console.log(fruits[1]); // 輸出: Banana
+console.log(fruits.length); // 輸出: 4
+// 陣列的元素可以通過 slice() 方法複製。
+let newFruits = fruits.slice();
+console.log(newFruits); // 輸出: ["Apple", "Banana", "Orange", "Grapes"]
+// 陣列的元素可以通過 forEach() 方法遍歷。
+fruits.forEach(function (item, index) {
+    console.log(index, item);
+});
+// 輸出:
+// 0 "Apple"
+// 1 "Banana"
+// 2 "Orange"
+// 3 "Grapes"
+// 陣列的元素可以通過 map() 方法映射。
+let newFruits1 = fruits.map(function (item) {
+    return item.toUpperCase();
+});
+console.log(newFruits1); // 輸出: ["APPLE", "BANANA", "ORANGE", "GRAPES"]
+// 陣列的元素可以通過 filter() 方法過濾。
+let newFruits2 = fruits.filter(function (item) {
+    return item.length > 5;
+});
+console.log(newFruits2); // 輸出: ["Banana", "Orange", "Grapes"]
+// 陣列的元素可以通過 reduce() 方法累加。
+// 計算陣列中所有元素的長度之和
+
+let total = newFruits2.reduce(function (acc, item) {
+    return acc + item.length;
+}, 0);
+console.log(total); // 輸出: 18
+// 陣列的元素可以通過 every() 方法判斷是否符合條件。
+let isLong = fruits.every(function (item) {
+    return item.length > 5;
+});
+console.log(isLong); // 輸出: false
+
+
+//多維陣列
+// 在 JavaScript 中，陣列的元素也可以是陣列，這樣就形成了多維陣列。
+// 多維陣列是一種包含多個陣列的陣列，用來存儲多維數據。
+// 多維陣列的元素可以是任何資料型別，包括數值、字串、物件、陣列等。
+
+// 宣告一個二維陣列
+let matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(matrix[0][0]); // 輸出: 1
+console.log(matrix[1][1]); // 輸出: 5
+console.log(matrix[2][2]); // 輸出: 9
+// 二維陣列的元素可以通過索引訪問，也可以通過索引修改。
+matrix[0][0] = 10;
+console.log(matrix[0][0]); // 輸出: 10
+// 二維陣列的元素可以通過索引添加。
+matrix[0][3] = 11;
+console.log(matrix[0][3]); // 輸出: 11
+// 二維陣列的元素可以通過索引刪除。
+delete matrix[0][0];
+console.log(matrix[0][0]); // 輸出: undefined
+// 二維陣列的元素可以通過 push() 方法添加到陣列的末尾。
+matrix[1].push(12);
+console.log(matrix[1][3]); // 輸出: 12
+// 二維陣列的元素可以通過 pop() 方法從陣列的末尾刪除。
+matrix[1].pop();
+console.log(matrix[1][2]); // 輸出: 6
+// 二維陣列的元素可以通過 shift() 方法從陣列的開頭刪除。
+matrix[2].shift();
+console.log(matrix[2][0]); // 輸出: 8
+// 二維陣列的元素可以通過 unshift() 方法添加到陣列的開頭。
+matrix[2].unshift(13);
+console.log(matrix[2][0]); // 輸出: 13
+// 二維陣列的元素可以通過 splice() 方法刪除或插入。
+matrix[1].splice(1, 1); // 刪除第二個元素
+console.log(matrix[1][1]); // 輸出: 6
+matrix[1].splice(1, 0, 5); // 在第二個位置插入 5
+console.log(matrix[1][1]); // 輸出: 5
+// 二維陣列的元素可以通過 slice() 方法複製。
+let newMatrix = matrix.slice();
+console.log(newMatrix); // 輸出: [[10, 2, 3, 11], [4, 5, 6], [13, 8, 9]]
+// 二維陣列的元素可以通過 forEach() 方法遍歷。
+matrix.forEach(function (row, rowIndex) {
+    row.forEach(function (item, itemIndex) {
+        console.log(rowIndex, itemIndex, item);
+    });
+});
 
 
 
