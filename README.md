@@ -31,7 +31,7 @@
 
 3. 用 AI (claude,chatgpt或copilot) 學習Node.js , React.js , Next.js 與 Restful api 
 
-+ 3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
++ 3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs), node-qt
 + 3-2 React.js : [React Learning](https://react.dev/learn)
 + 3-3 Next.js : [Next Learning](https://nextjs.org/learn)
 + 3-4 Restful API :
