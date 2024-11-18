@@ -19,7 +19,7 @@
    
 + 2-2 五項重要技術：
 + ✅日期資料運算 : javascript 的 日期資料運算的範例與說明
-+ ✅陣列反覆函式
++ ✅陣列array 反覆loop,recursive 函式function
 + ✅async/await非同步技術
 + ✅JSON文件處理技術
 + ✅XMLHttpRequest物件查詢<
