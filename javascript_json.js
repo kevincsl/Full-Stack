@@ -54,7 +54,7 @@ const person3 = {
 person3.address.home = 'Tokyo';
 console.log(person3.address.home); // Tokyo
 
-// 4. JSON物件的應用技巧
+// 5. JSON物件的應用技巧
 // 範例: JSON物件的應用技巧
 const person4 = {
     name: 'Alice',
@@ -69,7 +69,43 @@ const person4 = {
   console.log(age); // 25
   console.log(address.home); // New York
 
-// 10. JSON物件的應用注意事項
+// 6. 讀取與寫入JSON檔案
+// 寫入JSON檔案
+// 範例: 寫入JSON檔案
+const fs1 = require('fs');
+const person6 = {
+    name: 'Alice',
+    age: 25
+  };
+  const jsonStr4 = JSON.stringify(person6);
+  fs1.writeFileSync('data.json', jsonStr4, 'utf8'); // 寫入JSON檔案, 並指定編碼格式
+    console.log('Data written to file!');
+
+// 範例: 讀取JSON檔案轉成JSON物件
+const fs = require('fs');
+const data = fs.readFileSync('data.json', 'utf8'); // 讀取JSON檔案, 並指定編碼格式
+const person5 = JSON.parse(data);
+console.log(person5);
+
+// 7. 使用JSON Server
+// JSON Server是一個Node.js模組，用於快速構建REST API服務器。
+// JSON Server基於Express.js，並提供了一個簡單的命令行界面，用於設置REST API端點。
+// JSON Server可以從JSON文件，JavaScript物件或JSON Server路由文件創建REST API服務器。
+// 範例: 使用JSON Server
+// 安裝JSON Server
+// npm install -g json-server
+// 創建JSON文件
+// 創建data.json文件，並添加以下內容：
+// {
+//     "users": [
+//       { "id": 1, "name": "Alice" },
+//       { "id": 2, "name": "Bob" }
+//     ]
+//   }
+// 啟動JSON Server
+// json-server --watch data.json
+// 訪問API端點
+// http://localhost:3000/users
 
 
 
