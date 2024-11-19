@@ -107,5 +107,106 @@ console.log(person5);
 // 訪問API端點
 // http://localhost:3000/users
 
+// 8. 使用JSON Web Token (JWT)
+// JSON Web Token (JWT)是一種開放標準（RFC 7519），用於在網絡應用程序之間傳輸信息。
+// JWT由三部分組成：Header、Payload和Signature。
+// JWT通常用於驗證用戶身份和創建安全的API端點。
+// 範例: 使用JSON Web Token (JWT)
+// 安裝jsonwebtoken模組
+// npm install jsonwebtoken
+// 創建JWT
+const jwt = require('jsonwebtoken');
+const secret= 'secret';
+const token = jwt.sign({ id: 1 }, secret);
+console.log(token);
+// 驗證JWT
+const decoded = jwt.verify(token, secret);
+console.log(decoded); // { id: 1 }
+// 驗證JWT
+const invalid = jwt.verify(token, 'invalid');
+console.log(invalid); // JsonWebTokenError: invalid signature
+// 生成JWT
+const token1 = jwt.sign({ id: 1 }, secret, { expiresIn: '1h' });
+console.log(token1);
+// 驗證JWT
+const decoded1 = jwt.verify(token1, secret);
+console.log(decoded1); // { id: 1 }
+// 驗證JWT
+const expired = jwt.verify(token1, secret);
+console.log(expired); // TokenExpiredError: jwt expired
 
+
+// 9. 使用JSON Schema
+// JSON Schema是一種用於描述JSON數據格式的語言。
+// JSON Schema定義了數據類型，格式，屬性等約束。
+// JSON Schema通常用於驗證JSON數據的有效性。
+// 範例: 使用JSON Schema
+// 安裝ajv模組
+// npm install ajv
+// 創建JSON Schema
+const Ajv = require('ajv');
+const ajv = new Ajv();
+const schema = {
+  type: 'object',
+  properties: {
+    name: { type: 'string' },
+    age: { type: 'number' }
+  },
+  required: ['name', 'age']
+};
+const validate = ajv.compile(schema);
+// 驗證JSON數據
+const data1 = { name: 'Alice', age: 25 };
+const valid = validate(data1);
+console.log(valid); // true
+// 驗證JSON數據
+const data2 = { name: 'Alice' };
+const valid1 = validate(data2);
+console.log(valid1); // false
+
+// 10. 使用JSON Pointer
+// JSON Pointer是一種用於定位JSON數據的標準。
+// JSON Pointer使用URI片段語法來定位JSON數據的特定部分。
+// JSON Pointer通常用於訪問JSON數據的特定屬性。
+// 範例: 使用JSON Pointer
+// 安裝jsonpointer模組
+// npm install jsonpointer
+// 使用JSON Pointer
+const pointer = require('jsonpointer');
+const data3 = { name: 'Alice', age: 25 };
+const value = pointer.get(data3, '/name');
+console.log(value); // Alice
+// 使用JSON Pointer
+pointer.set(data3, '/name', 'Bob');
+console.log(data3.name); // Bob
+
+// 11. 使用JSON Patch
+// JSON Patch是一種用於修改JSON數據的標準。
+// JSON Patch使用JSON數組表示要對JSON數據進行的修改操作。
+// JSON Patch通常用於構建REST API端點的更新功能。
+// 範例: 使用JSON Patch
+// 安裝jsonpatch模組
+// npm install jsonpatch
+// 使用JSON Patch
+const patch = require('jsonpatch');
+const data4 = { name: 'Alice', age: 25 };
+const patches = [
+  { op: 'replace', path: '/name', value: 'Bob' }
+];
+const result = patch.applyPatch(data4, patches).newDocument;
+console.log(result.name); // Bob
+
+// 12. 使用JSON Merge Patch
+// JSON Merge Patch是一種用於合併JSON數據的標準。
+// JSON Merge Patch使用JSON對象表示要合併的數據。
+// JSON Merge Patch通常用於構建REST API端點的更新功能。
+// 範例: 使用JSON Merge Patch
+// 安裝json-merge-patch模組
+// npm install json-merge-patch
+// 使用JSON Merge Patch
+const mergePatch = require('json-merge-patch');
+const data5 = { name: 'Alice', age: 25 };
+const patch1 = { name: 'Bob' };
+const result1 = mergePatch.apply(data5, patch1);
+console.log(result1.name); // Bob
 
