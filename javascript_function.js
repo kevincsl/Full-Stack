@@ -227,23 +227,3 @@ const numbers = [1, 2, 3, 4, 5];
 const sum5 = numbers.reduce((total, num) => total + num, 0);
 console.log(sum5); // 15
 
-// 15. 函式的Promise, 使用Promise, 處理非同步的操作, 例如: 讀取檔案、發送請求, 等待操作完成後才執行下一個操作
-function fetchData() {
-  return new Promise((resolve, reject) => { // 建立Promise物件, resolve: 成功, reject: 失敗
-    setTimeout(() => { // 模擬非同步操作
-      resolve('Data fetched!'); // 成功時呼叫resolve(), 並回傳資料  
-    }, 2000); // 2秒後執行
-  });
-}
-fetchData().then(data => {
-  console.log(data); // Data fetched!
-});
-
-// 16. 函式的async/await, 使用async/await, 簡化Promise的使用
-async function fetchData1() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve('Data fetched!');
-    }, 2000);
-  });
-}
