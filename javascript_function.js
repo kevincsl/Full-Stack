@@ -213,3 +213,16 @@ function add(a) {
 }   
 const sum = add(3)(5);
 console.log(sum); // 8
+
+// 13. 函式的偏函式應用, 使用Partial application, 將多個參數的函式轉換成少數參數的函式
+function add(a, b, c) {
+  return a + b + c;
+}
+const addPartial = add.bind(null, 3, 5);
+const sum = addPartial(7);
+console.log(sum); // 15
+
+// 14. 函式的函數式編程, 使用Functional programming, 使用函式來處理資料
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((total, num) => total + num, 0);
+console.log(sum); // 15
