@@ -131,7 +131,7 @@ greet(); // Hello, World!
 greet('Alice'); // Hello, Alice!
 
 // 6. 函式的剩餘參數, 使用Rest parameter, 以陣列的方式存取所有的參數
-function sum(...numbers) {
+function sum_f(...numbers) {
   return numbers.reduce((total, num) => total + num, 0); // 使用reduce()方法計算總和
   // 或是使用for迴圈計算總和, 例如:
     // let total = 0;
@@ -139,50 +139,50 @@ function sum(...numbers) {
     //   total += num;
     // }
 }
-const total = sum(1, 2, 3, 4, 5);
+const total = sum_f(1, 2, 3, 4, 5);
 console.log(total); // 15
 
 // 7. 函式的展開參數, 使用Spread operator, 將陣列展開成參數
 function greet(name, age) {
   console.log(`Hello, ${name}! You are ${age} years old.`);
 }
-const person = ['Alice', 25];
-greet(...person); // Hello, Alice! You are 25 years old.
+const person2 = ['Alice', 25];
+greet(...person2); // Hello, Alice! You are 25 years old.
 
 // 8. 函式的箭頭函式, 使用Arrow function, 簡化函式的寫法
-const sayHello = () => {
+const sayHello1 = () => {
   console.log('Hello, World!');
 };
-sayHello(); // Hello, World!
+sayHello1(); // Hello, World!
 // 或是簡化成一行
-const sayHello = () => console.log('Hello, World!');
-sayHello(); // Hello, World!
+const sayHello2 = () => console.log('Hello, World!');
+sayHello2(); // Hello, World!
 // 有參數的箭頭函式
-const greet = name => console.log(`Hello, ${name}!`);
-greet('Alice'); // Hello, Alice!
+const greet1 = name => console.log(`Hello, ${name}!`);
+greet1('Alice'); // Hello, Alice!
 // 有多個參數的箭頭函式
-const add = (a, b) => a + b;
-const sum = add(3, 5);
-console.log(sum); // 8
+const add1 = (a, b) => a + b;
+const sum2 = add1(3, 5);
+console.log(sum2); // 8
 // 無參數的箭頭函式
-const sayHello = () => console.log('Hello, World!');
-sayHello(); // Hello, World!
+const sayHello3 = () => console.log('Hello, World!');
+sayHello3(); // Hello, World!
 // 有多行程式碼的箭頭函式
-const greet = name => {
+const greet2 = name => {
   console.log(`Hello, ${name}!`);
   console.log('How are you?');
 };
-greet('Alice'); // Hello, Alice! How are you?
+greet2('Alice'); // Hello, Alice! How are you?
 
 // 9. 函式的回調函式, 使用Callback function, 將函式當作參數傳遞給另一個函式
-function greet(name, callback) {
+function greet3(name, callback) {
   console.log(`Hello, ${name}!`);
   callback();
 }
-function sayGoodbye() {
+function sayGoodbye1() {
   console.log('Goodbye!');
 }
-greet('Alice', sayGoodbye); // Hello, Alice! Goodbye!
+greet3('Alice', sayGoodbye1); // Hello, Alice! Goodbye!
 
 // 10. 函式的遞迴, 使用Recursion, 函式呼叫自己
 function factorial(n) {
@@ -206,23 +206,35 @@ const innerFunction = outer();
 innerFunction(); // Hello, World!
 
 // 12. 函式的柯里化, 使用Currying, 將多個參數的函式轉換成一個參數的函式
-function add(a) {
+function add2(a) {
   return function(b) {
     return a + b;
   };
 }   
-const sum = add(3)(5);
-console.log(sum); // 8
+const sum3 = add2(3)(5);
+console.log(sum3); // 8
 
 // 13. 函式的偏函式應用, 使用Partial application, 將多個參數的函式轉換成少數參數的函式
-function add(a, b, c) {
+function add3(a, b, c) {
   return a + b + c;
 }
-const addPartial = add.bind(null, 3, 5);
-const sum = addPartial(7);
-console.log(sum); // 15
+const addPartial = add3.bind(null, 3, 5);
+const sum4 = addPartial(7);
+console.log(sum4); // 15
 
 // 14. 函式的函數式編程, 使用Functional programming, 使用函式來處理資料
 const numbers = [1, 2, 3, 4, 5];
-const sum = numbers.reduce((total, num) => total + num, 0);
-console.log(sum); // 15
+const sum5 = numbers.reduce((total, num) => total + num, 0);
+console.log(sum5); // 15
+
+// 15. 函式的Promise, 使用Promise, 處理非同步的操作, 例如: 讀取檔案、發送請求, 等待操作完成後才執行下一個操作
+function fetchData() {
+  return new Promise((resolve, reject) => { // 建立Promise物件, resolve: 成功, reject: 失敗
+    setTimeout(() => { // 模擬非同步操作
+      resolve('Data fetched!'); // 成功時呼叫resolve(), 並回傳資料  
+    }, 2000); // 2秒後執行
+  });
+}
+fetchData().then(data => {
+  console.log(data); // Data fetched!
+});
