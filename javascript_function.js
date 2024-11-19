@@ -238,3 +238,12 @@ function fetchData() {
 fetchData().then(data => {
   console.log(data); // Data fetched!
 });
+
+// 16. 函式的async/await, 使用async/await, 簡化Promise的使用
+async function fetchData1() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('Data fetched!');
+    }, 2000);
+  });
+}
