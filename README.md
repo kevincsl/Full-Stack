@@ -30,7 +30,7 @@
 
 3. 用 AI (claude,chatgpt,gemini) 學習Node.js , React.js , Next.js 與 Restful api 
 
-+ 3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs), node-qt ,express 套件
++ 3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs), node-qt ,[express 套件](https://expressjs.com/)
 + 3-2 React.js : [React Learning](https://react.dev/learn)
 + 3-3 Next.js : [Next Learning](https://nextjs.org/learn)
 + 3-4 Restful API :
