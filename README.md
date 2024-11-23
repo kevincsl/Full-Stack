@@ -11,7 +11,7 @@
 1. 學習 [figma](https://www.figma.com) (Figma也有教育版可以免費使用)並使用它設計 UI
    [教學影片 on youtube https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6](https://youtube.com/playlist?list=PLmDK82IOMyBgy2oCRnqlzXMC5x-47y_oQ&si=dcaC6SpaUmgIypQ6)
 
-2. 用 AI (claude,chatgpt,gemini) 學習Javascript
+2. 用 AI (claude,chatgpt,gemini) 學習Javascript 
 
 >   先至 nodejs.org 下載 node.js 並安裝，在終端機執行 node xxxx.js 
    
@@ -28,7 +28,7 @@
 + ✅[Bootstrap for React 樣式表套件](https://react-bootstrap.netlify.app/)
 + ✅[DataTables程式庫套件](https://datatables.net/manual/react)
 
-3. 用 AI (claude,chatgpt,copilot,cline) 學習Node.js , React.js , Next.js 與 Restful api 
+3. 用 AI (claude,chatgpt,gemini) 學習Node.js , React.js , Next.js 與 Restful api 
 
 + 3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs), node-qt ,express 套件
 + 3-2 React.js : [React Learning](https://react.dev/learn)
