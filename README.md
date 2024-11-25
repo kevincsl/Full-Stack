@@ -32,7 +32,22 @@
 
 + 3-1 Node.js : [Node Learning](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs), node-qt ,[express 套件](https://expressjs.com/)
 + 3-2 React.js : [React Learning](https://react.dev/learn)
+何時選擇 React
+建立單頁應用程式 (SPA)
+開發複雜的資料驅動接口
+建立可重複使用的元件庫
+當您的技術堆疊需要最大的靈活性時
+對於不需要伺服器端渲染的專案
+
 + 3-3 Next.js : [Next Learning](https://nextjs.org/learn)
+何時選擇 Next.js
+建立電子商務平台
+開發內容豐富的網站或博客
+建立需要出色 SEO 的應用程式
+建構全端 JavaScript 應用程式
+當您需要伺服器端渲染或靜態網站產生時
+對於受益於更有主見的框架的專案
+ 
 + 3-4 Restful API :
 + [Define 定義](https://aws.amazon.com/tw/what-is/restful-api/)
 + [Usage 使用方法](https://learn.microsoft.com/zh-tw/azure/architecture/best-practices/api-design#define-api-operations-in-terms-of-http-methods)
