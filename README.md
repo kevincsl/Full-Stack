@@ -56,7 +56,9 @@
 
 5. n8n workflow 學習與使用 (執行日期 2024/12/07-2024/12/22)
 
-6. 用 AI (claude,chatgpt或gemini) 製作全端程式 程式1 ～ 程式5  
+6. 用 AI (claude,chatgpt或gemini) 製作全端程式 程式1 ～ 程式5
+
+7. Using WASM in React.js Next.js 
    
 ## B. Mobile APP
 1. 學習 React Native  
