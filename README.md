@@ -65,4 +65,4 @@
 2. 學習 ios - SwiftUI  
 3. 學習 android - Jetpack Compose UI  
 4. 用 AI (claude,chatgpt或gemini) 製作APP程式 程式1 ～ 程式5 ( 
-
+5. 使用 Capacitor 製作 mobile APP
